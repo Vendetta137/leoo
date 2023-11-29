@@ -213,7 +213,7 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>ME !!</span></h2>
 
-        <form action="">
+        <form action="" name="leo-contact-form">
             <div class="input-box">
                 <div class="input-field">
                     <input type="text" name="full-name" placeholder="Full Name" required>
@@ -261,7 +261,7 @@
 
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyOK6wfUtZd6ALO2UktAW5kkHAUEu1Hy2eiArV9vB_Chviih_fwLrBnmA3DrfzJ0kR95w/exec'
-        const form = document.forms['submit-to-google-sheet']
+        const form = document.forms['leo-contact-form']
         const loading = document.querySelector('.js-loading')
         const successMessage = document.querySelector('.js-success-message')
         const errorMessage = document.querySelector('.js-error-message')
